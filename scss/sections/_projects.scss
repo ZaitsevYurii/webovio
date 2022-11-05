@@ -1,0 +1,87 @@
+.projects {
+	padding: 50px 0 185px;
+
+	&__top {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 133px;
+		margin-bottom: 104px;
+	}
+
+	&__cards {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 60px;
+	}
+
+	&__card:nth-child(1) {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		grid-gap: 60px;
+
+		&::before {
+			content: url("/img/cards/Bitmap.jpg");
+
+		}
+	}
+
+	&__card:nth-child(2) {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		grid-gap: 60px;
+		margin-left: auto;
+
+		&::after {
+			content: url("/img/cards/Bitmap\ \(1\).jpg");
+		}
+	}
+
+	&__card:nth-child(3) {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		grid-gap: 60px;
+
+		&::before {
+			content: url("/img/cards/Bitmap\ \(2\).jpg");
+		}
+	}
+
+	&__card-title {
+		max-width: 475px;
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 54px;
+		color: $text-color;
+		margin-bottom: 24px;
+	}
+
+	&__card-descr {
+		max-width: 421px;
+		color: rgba(33, 56, 66, 0.6);
+		margin-bottom: 60px;
+	}
+
+	&__card-link {
+		color: $link-gray;
+	}
+}
+
+.top-project {
+
+	&__title {
+		max-width: 325px;
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 54px;
+		color: $title-color;
+	}
+
+	&__descr {
+		max-width: 518px;
+		color: rgba(33, 56, 66, 0.6);
+	}
+}
