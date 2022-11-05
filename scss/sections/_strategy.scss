@@ -1,0 +1,87 @@
+.strategy {
+	padding: 234px 0 183px;
+
+	.container {
+		position: relative;
+	}
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-bottom: 1px solid rgba(33, 56, 66, 0.0955529);
+	}
+
+	&__content {
+		max-width: 475px;
+	}
+
+	&__subtitle {
+		color: rgba(77, 83, 60, 0.9);
+		margin-bottom: 29px;
+	}
+
+	&__title {
+		color: $title-color;
+		margin-bottom: 35px;
+	}
+
+	&__desr {
+		color: rgba(33, 56, 66, 0.6);
+		margin-bottom: 42px;
+	}
+
+	&__link {
+		color: $link-gray;
+	}
+
+	&__card {
+		max-width: 474px;
+		padding: 244px 8px 73px 40px;
+		background: #FFFFFF;
+		box-shadow: 0px 100px 100px rgba(0, 0, 0, 0.145947);
+
+		position: absolute;
+		right: 0;
+		top: -225px;
+	}
+
+	&__card-desr {
+		font-size: 24px;
+		line-height: 40px;
+		color: $title-color;
+		margin-bottom: 64px;
+	}
+
+	&__card-option {
+		padding-left: 150px;
+		position: relative;
+
+		&::before {
+			content: url("/img/grand.png");
+			display: block;
+			width: 90px;
+			height: 90px;
+			position: absolute;
+			top: -30px;
+			left: 0;
+		}
+	}
+
+	&__card-name {
+		display: inline-block;
+		font-weight: 700;
+		font-size: 22px;
+		line-height: 33px;
+		color: $title-color;
+		margin-bottom: 6px;
+
+	}
+
+	&__card-position {
+		display: inline-block;
+		font-size: 16px;
+		line-height: 24px;
+		color: #152934;
+	}
+}
