@@ -1,0 +1,40 @@
+.header {
+	padding: 24px 0 220px;
+	background-image: url("/img/header-bg.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	position: relative;
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 121px;
+	}
+
+	&__subtitle {
+		margin-bottom: 22px;
+	}
+
+	&__title {
+		max-width: 616px;
+		font-weight: 700;
+		font-size: 60px;
+		line-height: 74px;
+		color: $footer-header-title-color;
+		margin-bottom: 24px;
+	}
+
+	&__desr {
+		max-width: 581px;
+		color: $footer-header-title-color;
+		margin-bottom: 45px;
+	}
+}
+
+.burger {
+	border: none;
+	background-color: transparent;
+}

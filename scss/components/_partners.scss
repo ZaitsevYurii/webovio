@@ -1,0 +1,17 @@
+.partners {
+	padding: 60px 166px 64px 65px;
+	max-width: 1276px;
+	background: #FFFFFF;
+	box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+	border-radius: 2px;
+
+	position: absolute;
+	right: 0;
+	bottom: calc(-227px/2);
+
+	&__list {
+		display: flex;
+		gap: 66px;
+		align-items: center;
+	}
+}
