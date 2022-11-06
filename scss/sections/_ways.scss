@@ -1,0 +1,50 @@
+.ways {
+	padding: 120px 0 120px;
+
+	&__title {
+		max-width: 607px;
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 46px;
+		color: $title-color;
+		margin-bottom: 60px;
+	}
+
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(194px, 1fr));
+		grid-column-gap: 90px;
+		grid-row-gap: 30px;
+	}
+
+	&__item {
+		box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+		border-radius: 4px;
+		width: 255px;
+		height: 309px;
+		padding: 20px 30px;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	&__subtitle {
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 34px;
+		color: $title-color;
+	}
+
+	&__descr {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 26px;
+		color: rgba(33, 56, 66, 0.6);
+	}
+
+	&__link {
+		color: $link-yellow;
+	}
+}

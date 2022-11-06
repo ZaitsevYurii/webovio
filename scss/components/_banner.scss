@@ -1,0 +1,13 @@
+.banner {
+	padding: 70px 289px 164px;
+	background: #FAFAFA;
+	box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+
+	&__title {
+		max-width: 822px;
+		font-weight: 700;
+		font-size: 60px;
+		line-height: 74px;
+		color: $title-color;
+	}
+}
