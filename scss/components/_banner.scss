@@ -3,6 +3,11 @@
 	background: #FAFAFA;
 	box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
 
+	position: absolute;
+	bottom: -181px;
+	left: 0;
+	z-index: 999;
+
 	&__title {
 		max-width: 822px;
 		font-weight: 700;
