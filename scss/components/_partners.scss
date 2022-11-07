@@ -5,6 +5,11 @@
 	box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
 	border-radius: 2px;
 
+	@include desktop {
+		position: relative;
+		padding: 40px 100px;
+	}
+
 	position: absolute;
 	right: 0;
 	bottom: calc(-227px/2);
@@ -14,5 +19,9 @@
 		display: flex;
 		gap: 66px;
 		align-items: center;
+
+		@include desktop {
+			flex-direction: column;
+		}
 	}
 }
