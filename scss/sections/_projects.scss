@@ -35,7 +35,7 @@
 		margin-left: auto;
 
 		&::after {
-			content: url("/img/cards/Bitmap\ \(1\).jpg");
+			content: url("../img/cards/Bitmap\ \(1\).jpg");
 		}
 	}
 
@@ -46,7 +46,7 @@
 		grid-gap: 60px;
 
 		&::before {
-			content: url("/img/cards/Bitmap\ \(2\).jpg");
+			content: url("../img/cards/Bitmap\ \(2\).jpg");
 		}
 	}
 
